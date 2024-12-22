@@ -1,0 +1,2 @@
+# Interaction
+Interaction（ol.interaction.Interaction）​：地图交互控件类。地图交互一般是通过鼠标与键盘进行的，因此Interaction的子类为基于鼠标与键盘操控的地图交互功能控件，如选择要素控件（Select）​、键盘缩放地图控件（KeyboardZoom）​、鼠标控件基类（Pointer）下的绘制控件（Draw）​、修改控件（Modify）​、拖放平移地图控件（DragPan）等。
