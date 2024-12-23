@@ -4,13 +4,13 @@ import sidebar from "./sidebar";
 import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
-const author = "程序员鱼皮";
+const author = "躺在床上数星星";
 const domain = "https://codefather.cn";
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
-  title: "鱼皮的编程宝典",
-  description: "贴心的编程学习路线，全面的编程知识百科",
+  title: "Openlayer",
+  description: "贴心Openlayer学习资料",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -20,7 +20,8 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "程序员鱼皮, 编程学习路线, 编程知识百科, Java, 编程导航, 前端, 开发, 编程分享, 项目, IT, 求职, 面经",
+        "本页面根据在使用OpenLayers过程中记录的各种资料，包括API手册、入门教程和实用技巧，旨在帮助开发者更好地理解和使用OpenLayers进行GIS开发。OpenLayers是一个功能强大的Web地图渲染库，广泛应用于地理信息系统的开发中",
+
       },
     ],
     // 百度统计
