@@ -1,19 +1,42 @@
 export default [
-  "",
   {
-    title: "学习路线",
+    title: "开始",
     collapsable: false,
     children: [
-      "Java学习路线 by 程序员鱼皮.md",
-      "前端学习路线 by 程序员鱼皮.md",
-      "C++学习路线 by 程序员鱼皮.md",
-      "Python学习路线 by 程序员鱼皮.md",
-      "数据结构和算法学习路线 by 程序员鱼皮.md",
-      "SQL免费实战自学网站 by 程序员鱼皮.md",
-      "计算机基础学习路线 by 程序员鱼皮.md",
-      "Git&GitHub学习路线 by 程序员鱼皮.md",
-      "设计模式学习路线 by 程序员鱼皮.md",
-      "Linux学习路线 by 程序员鱼皮.md",
+      "快速上手.md",
+    ]
+  },
+  {
+    title: "核心类",
+    collapsable: false,
+    children: [
+      "Map.md",
+      "WebGLMap.md",
+      "View.md",
+      "Layers.md",
+      "Sources.md",
+      "Format.md",
+      "Geometry.md",
+      "Feature.md",
+      "Overlay.md",
+      "Controls.md",
+      "Interaction.md",
+      "Style.md",
+      "Projections.md",
+      "Renderer.md"
     ],
   },
+  {
+    title: "类的事件",
+    collapsable: false,
+    children: [
+      // "Java学习路线 by 程序员鱼皮.md",
+      "地图事件.md",
+      "属性事件.md",
+      "绘制事件.md",
+      "交互事件.md",
+      "集合事件.md",
+      "地图渲染事件.md",
+    ],
+  }
 ];

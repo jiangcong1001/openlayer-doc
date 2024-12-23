@@ -2,7 +2,11 @@ import {NavItem} from "vuepress/config";
 
 export default [
     {
-        text: "学习路线",
-        link: '/学习路线/'
+        text: "指南",
+        link: '/指南/'
+    },
+    {
+        text: "API",
+        link: '/API/'
     },
 ] as NavItem[];

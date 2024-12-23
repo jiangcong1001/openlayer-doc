@@ -120,9 +120,9 @@ export default defineConfig({
     sidebar,
     lastUpdated: "最近更新",
 
-    // GitHub 仓库位置
-    repo: "liyupi/codefather",
-    docsBranch: "master",
+    // // GitHub 仓库位置
+    // repo: "liyupi/codefather",
+    // docsBranch: "master",
 
     // 编辑链接
     editLinks: true,
@@ -132,6 +132,6 @@ export default defineConfig({
     // 底部版权信息
     footer,
     // 额外右侧边栏
-    extraSideBar,
+    // extraSideBar,
   },
 });
